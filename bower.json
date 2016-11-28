@@ -17,7 +17,7 @@
     "src"
   ],
   "dependencies": {
-    "riot": "^3.0.1",
-    "materialize": "^0.97.8"
+    "materialize": "^0.97.8",
+    "font-awesome": "fontawesome#^4.7.0"
   }
 }

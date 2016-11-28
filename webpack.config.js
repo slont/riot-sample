@@ -1,4 +1,4 @@
-var webpack = require("webpack");
+var webpack = require('webpack');
 
 module.exports = {
     context: __dirname + '/src',
@@ -28,9 +28,12 @@ module.exports = {
         ],
         loaders: [
             {
-                test: /\.js$"\.tag$/,
+                test: /\.js$|\.tag$/,
                 exclude: /node_modules/,
-                loader: 'es6-loader'
+                loader: 'babel-loader',
+                query: {
+                    presets: ['es2015-riot']
+                }
             }
         ]
     },
