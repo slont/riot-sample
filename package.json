@@ -1,0 +1,25 @@
+{
+  "name": "riot-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "bower": "^1.8.0",
+    "es6-loader": "^0.2.0",
+    "gulp": "^3.9.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-riot": "^1.0.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-webpack": "^1.5.0",
+    "riotjs-loader": "^3.0.0",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  }
+}

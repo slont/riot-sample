@@ -1,0 +1,23 @@
+{
+  "name": "riot-sample",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "slont"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "package.json",
+    "src"
+  ],
+  "dependencies": {
+    "riot": "^3.0.1",
+    "materialize": "^0.97.8"
+  }
+}
